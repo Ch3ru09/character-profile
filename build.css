@@ -110,7 +110,9 @@ body {
 }
 
 main {
-    display: block;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
 }
 
 h1 {
@@ -385,6 +387,14 @@ body {
 .mx-auto {
     margin-left: auto;
     margin-right: auto
+}
+
+.ml-0 {
+    margin-left: 0 !important
+}
+
+.mr-0 {
+    margin-right: 0 !important
 }
 
 .mt-0 {
@@ -853,6 +863,6 @@ i:hover {
 }
 
 .w-letter {
-    max-width: 50%;
+    width: 40vw;
     aspect-ratio: 8/11;
 }

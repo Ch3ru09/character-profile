@@ -852,46 +852,7 @@ i:hover {
     }
 }
 
-@media (min-width:500px) {
-    .xsm\:p-8 {
-        padding: 2rem
-    }
-}
-
-@media (min-width:833px) {
-    .md\:h-letter {
-        height: 86.9375rem
-    }
-
-    .md\:h-letter-col-full {
-        height: 77.9375rem
-    }
-
-    .md\:max-w-letter {
-        max-width: 72rem
-    }
-
-    .md\:p-16 {
-        padding: 4rem
-    }
-
-    .md\:col-count-1 {
-        -moz-column-count: 1;
-        column-count: 1
-    }
-
-    .md\:col-count-2 {
-        -moz-column-count: 2;
-        column-count: 2
-    }
-}
-
-@media (min-width:1079.5px) {
-    .lg\:h-letter {
-        height: 86.9375rem
-    }
-
-    .lg\:mt-6 {
-        margin-top: 1.5rem
-    }
+.w-letter {
+    max-width: 50%;
+    aspect-ratio: 8/11;
 }

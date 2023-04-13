@@ -5,10 +5,11 @@ export default function Header() {
     <header className="inline-flex items-baseline justify-between w-full mb-3 align-top border-b-8">
       <div className="block">
         <h1 className="mb-0 text-5xl font-bold text-gray-750">{name}</h1>
-        <h2 className="mt-3 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">Place of birth: unknown</h2>
-        <h2 className="mb-3 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">Date of birth: unknown</h2>
+        <h2 className="mt-3 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">Place of birth: Chicago</h2>
+        <h2 className="mb-3 ml-2 text-2xl font-semibold text-gray-700 leading-snugish">Year of birth: 1871</h2>
         <h3 className="m-0 mt-2 ml-2 font-semibold text-md text-gray-550 leading-snugish">Hover on elements to show more</h3>
       </div>
+
       <div className="justify-between px-3 py-3 mt-0 mb-5 text-3xl font-bold leading-none text-gray-200 initials-container bg-gray-750 print:bg-black">
         <div className="text-center initial">H</div>
         <div className="text-center initial">D</div>

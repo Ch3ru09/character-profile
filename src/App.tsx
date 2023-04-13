@@ -1,6 +1,8 @@
 import Header from "./components/Header";
 import Hobbies from "./components/Hobbies";
 import Quotes from "./components/Quotes";
+import Music from "./components/Music";
+import Books from "./components/Books";
 import type { ReactNode } from "react";
 
 export default function App() {
@@ -11,8 +13,14 @@ export default function App() {
           <Header />
           <Quotes />
           <Hobbies />
+          <Music />
+          <Books />
         </Page>
-        <Page marginSide={"l"}></Page>
+        <Page marginSide={"l"}>
+          <div className="block">
+            <img src="/Drummond.jpg" alt="" />
+          </div>
+        </Page>
       </main>
     </div>
   );

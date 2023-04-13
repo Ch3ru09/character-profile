@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Hobbies from "./components/Hobbies";
 import Quotes from "./components/Quotes";
 import type { ReactNode } from "react";
 
@@ -9,6 +10,7 @@ export default function App() {
         <Page marginSide={"r"}>
           <Header />
           <Quotes />
+          <Hobbies />
         </Page>
         <Page marginSide={"l"}></Page>
       </main>
@@ -24,4 +26,3 @@ interface PageProps {
   children?: ReactNode | ReactNode[];
   marginSide?: string;
 }
-

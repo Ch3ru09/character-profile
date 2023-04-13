@@ -6,22 +6,22 @@ export default function Hobbies() {
         <section className="pb-2 mb-2 border-b-2 break-inside-avoid">
           <ul className="list-inside pr-7">
             <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 print:">
-              <a href="" className="group">
+              <div className="group">
                 <span className="mr-2 text-lg font-semibold text-gray-700 leading-snugish">•</span>
                 Reading
-              </a>
+              </div>
             </li>
             <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 print:">
-              <a href="" className="group">
+              <div className="group">
                 <span className="mr-2 text-lg font-semibold text-gray-700 leading-snugish">•</span>
                 thomasleonhighbaugh.me
-              </a>
+              </div>
             </li>
             <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md hover:text-gray-700 print:">
-              <a href="" className="group">
+              <div className="group">
                 <span className="mr-2 text-lg font-semibold text-gray-700 leading-snugish">•</span>
                 thomasleonhighbaugh.me
-              </a>
+              </div>
             </li>
           </ul>
         </section>
@@ -29,4 +29,3 @@ export default function Hobbies() {
     </section>
   );
 }
-

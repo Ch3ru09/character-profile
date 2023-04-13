@@ -13,7 +13,7 @@ export default function Music() {
                 </a>
                 <span className="inline-block font-normal transition duration-100 ease-in text-gray-550 print:text-black group-hover:text-gray-700">↗</span>
               </div>
-              <p className="mt-2 ml-4 leading-normal text-gray-700 text-md c-default">One of Henry Drummond's main values is freedom and well, "When I get older, I will be stronger, They'll call me "Freedom", Just like a wavin' flag" is some lyrics that resonates with him.</p>
+              <p className="mt-2 ml-4 leading-normal text-gray-700 text-md c-default">One of Henry Drummond's main values is freedom and well, "When I get older, I will be stronger, They'll call me Freedom, Just like a wavin' flag" is some lyrics that resonates with him.</p>
             </li>
             <li className="mt-1 leading-normal transition duration-100 ease-in text-gray-550 text-md print:">
               <div className="group tooltip hover:text-gray-700">

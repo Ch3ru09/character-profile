@@ -20,7 +20,7 @@ export default function App() {
         <Page marginSide={"l"}>
           <Movies />
           <div className="block">
-            <img src="/character-profile/Drummond.jpg" alt="" />
+            <img src="/Drummond.jpg" alt="" />
           </div>
         </Page>
       </main>
